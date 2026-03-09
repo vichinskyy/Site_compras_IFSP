@@ -12,9 +12,13 @@ export default function SobrePage() {
 
           <div className="mb-8 text-center">
             <p className="text-lg text-muted-foreground">
-              A LojaCamisas é sua loja online de camisas de alta qualidade.
-              Trabalhamos para oferecer produtos confortáveis, estilosos e com
-              preços justos.
+              A “nome da marca” foi pensada exatamente para você que precisa de praticidade no dia a dia sem abrir mão da elegância.
+
+              É com muito prazer que apresentamos a linha de roupas “nome da linha”.
+
+              Confeccionadas em tecido premium, são isentas de amassados inconvenientes e totalmente impermeáveis, possibilitando usos mais intensos no cotidiano.
+
+              Nossa tecnologia têxtil foi desenvolvida para acompanhar o ritmo de quem não para. Seja para uma reunião de negócios ou para um compromisso casual após o trabalho, você estará sempre com uma aparência impecável.
             </p>
           </div>
 

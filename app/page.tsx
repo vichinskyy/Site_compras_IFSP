@@ -12,7 +12,7 @@ export default function Home() {
               Bem-vindo à LojaCamisas
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground text-pretty">
-              Descubra nossa coleção de camisas de alta qualidade. Conforto,
+              Descubra nossa coleção de camisas de alta qualidade, impermeáveis e que não amassam. Conforto,
               estilo e preços justos para você.
             </p>
           </div>
