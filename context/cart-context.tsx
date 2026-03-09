@@ -1,6 +1,6 @@
 "use client"
 
-import { createContext, useContext, useState, ReactNode } from "react"
+import { createContext, useContext, useState, ReactNode, useEffect } from "react"
 
 export interface CartItem {
   id: number
@@ -37,6 +37,34 @@ const CartContext = createContext<CartContextType | undefined>(undefined)
 export function CartProvider({ children }: { children: ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([])
   const [orders, setOrders] = useState<Order[]>([])
+  const [isLoaded, setIsLoaded] = useState(false)
+
+  // Carregar dados do localStorage na montagem
+  useEffect(() => {
+    const savedCart = localStorage.getItem("cart")
+    const savedOrders = localStorage.getItem("orders")
+    if (savedCart) {
+      setItems(JSON.parse(savedCart))
+    }
+    if (savedOrders) {
+      setOrders(JSON.parse(savedOrders))
+    }
+    setIsLoaded(true)
+  }, [])
+
+  // Salvar carrinho no localStorage quando mudar
+  useEffect(() => {
+    if (isLoaded) {
+      localStorage.setItem("cart", JSON.stringify(items))
+    }
+  }, [items, isLoaded])
+
+  // Salvar pedidos no localStorage quando mudar
+  useEffect(() => {
+    if (isLoaded) {
+      localStorage.setItem("orders", JSON.stringify(orders))
+    }
+  }, [orders, isLoaded])
 
   const addItem = (item: CartItem) => {
     setItems((prev) => {
