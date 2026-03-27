@@ -13,7 +13,7 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <Shirt className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold">LojaCamisas</span>
+          <span className="text-xl font-bold">UTILITARY</span>
         </Link>
 
         <nav className="flex items-center gap-6">

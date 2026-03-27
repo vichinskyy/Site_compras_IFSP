@@ -9,7 +9,7 @@ export default function Home() {
         <section className="bg-muted py-16">
           <div className="container mx-auto px-4 text-center">
             <h1 className="mb-4 text-4xl font-bold text-balance">
-              Bem-vindo à LojaCamisas
+              Bem-vindo à UTILITARY
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground text-pretty">
               Descubra nossa coleção de camisas de alta qualidade, impermeáveis e que não amassam. Conforto,
@@ -21,7 +21,7 @@ export default function Home() {
       </main>
       <footer className="border-t py-8">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2026 LojaCamisas. Todos os direitos reservados.</p>
+          <p>© 2026 UTILITARY. Todos os direitos reservados.</p>
         </div>
       </footer>
     </>

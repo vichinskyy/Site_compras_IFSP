@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'LojaCamisas - Camisas de Qualidade',
+  title: 'UTILITARY - Camisas de Qualidade',
   description: 'Sua loja online de camisas de alta qualidade. Encontre as melhores camisas com preços justos.',
   generator: 'v0.app',
   icons: {

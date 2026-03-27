@@ -12,7 +12,7 @@ export default function SobrePage() {
 
           <div className="mb-8 text-center">
             <p className="text-lg text-muted-foreground">
-              A “nome da marca” foi pensada exatamente para você que precisa de praticidade no dia a dia sem abrir mão da elegância.
+              A UTILITARY foi pensada exatamente para você que precisa de praticidade no dia a dia sem abrir mão da elegância.
 
               É com muito prazer que apresentamos a linha de roupas “nome da linha”.
 
