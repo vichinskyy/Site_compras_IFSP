@@ -5,16 +5,16 @@ import { ProductCard } from "./product-card"
 const products = [
   {
     id: 1,
-    name: "Camisa Azul Marinho",
+    name: "Camisa Azul ",
     description: "Camisa casual de algodão, confortável para o dia a dia.",
     price: 59.90,
-    image: "/images/camisa-gomes.jpg",
+    image: "/images/camisa-1.png",
   },
   {
     id: 2,
     name: "Calça Clássica",
     description: "Calça clássica minimalista, perfeita para qualquer ocasião.",
-    price: 59.90,
+    price: 79.90,
     image: "/images/calça-1.jpg",
   },
 ]
